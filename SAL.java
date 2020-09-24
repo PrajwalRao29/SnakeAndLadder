@@ -6,7 +6,7 @@ public class SAL {
 		while(x!=100)
 		{
 			int i=(int)(Math.random()*6%6)+1;
-			System.out.println("The dice rolled "+i);
+			System.out.println("The dice rolls "+i);
 			int option =(int)(Math.random()*10%3);
 			System.out.println("The option is "+option);
 			switch(option)
